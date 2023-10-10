@@ -75,3 +75,15 @@ transition: width 1000ms ease-in-out;
 	border-radius: 50%;
 	transform: rotate(90deg);
 }
+
+/*-----------------------------------------------------------
+                    Transform
+-----------------------------------------------------------*/
+.transform .b1 {
+	transform: rotate(60deg);
+}
+
+.transform .b1:hover {
+	transform: rotate(0);
+	
+}
