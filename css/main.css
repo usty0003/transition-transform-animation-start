@@ -80,11 +80,30 @@ transition: width 1000ms ease-in-out;
                     Transform
 -----------------------------------------------------------*/
 
+.transform .box {
+	transition: all 5s;
+}
+
 .transform .b1 {
 	transform: rotate(60deg);
+	transform-origin: 300px 300px;
+	/*transform-origin: top left;*/
 }
 
 .transform .b1:hover {
 	transform: rotate(0);
 	transition: all .5s;
 }
+
+.transform .b2:hover {
+	transform: scale(1.5)
+}
+
+.transform .b3:hover {
+ transform: skew(20deg);
+}
+
+.transform .b4:hover {
+	transform: translate(30px, 30px)
+   }
+
